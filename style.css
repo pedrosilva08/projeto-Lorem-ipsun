@@ -318,5 +318,69 @@ article p{
     width: 1200px;
     height: 128px;
 }
-
-
+/*--estilos do formulário--*/
+.c-form_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.c-form_description{
+    font-size: 24px;
+    color: #737373;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.c-form{
+   background-color: #E6E6E6;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   width: 564px;
+   height: 722px; 
+}
+.c-form input{
+    width: 468px;
+    height: 56px;
+    font-size: 24px;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+    margin-bottom: 28px;
+}
+.c-form p {
+    font-size: 14px;
+    margin-bottom: 8px;    
+}
+.c-form_button{
+    width: 468px;
+    height: 67px;
+    border: 0;
+    font-size: 28px;
+    color:white;
+    background-color: #00A4EF;
+    cursor: pointer;
+}
+.c-form_button:hover{
+    background-color: #002050;
+}
+/*--estilos do footer--*/
+.c-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.c-footer_img{
+    background-color: #003467;
+    padding: 20px;
+}
+.c-footer_img img{
+    margin-right: 10px;
+}
+.c-footer p{
+    margin-top: 21.7px;
+    font-size: 24px;
+    color:#B4B4B4;
+}
