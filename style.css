@@ -286,11 +286,14 @@ article p{
     width: 1200px;
 }
 .c-info_content_area{
-    border-right:4px solid #DEDEDE;
     height: 160px;
     width: 303px;
     padding: 40px 35px;
     text-align: center;
+    border-right: 4px solid #DEDEDE;
+}
+.c-info_content_area:last-child{
+    border-right: none;
 }
 .c-info_content_area h5{
     font-size: 20px;
