@@ -14,9 +14,7 @@ h1{
     font-size: 40px;
     color: #2571B7;
     margin-bottom: 48px;
-}
-h5{
-
+    text-align: center;
 }
 /*--paleta de cores--*/
 .azul{
@@ -278,4 +276,47 @@ article p{
     color: #FFB900;
     font-size: 20px;
 }
+/*--estilos da section info--*/
+.c-info_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 4px solid #DEDEDE;
+    width: 1200px;
+}
+.c-info_content_area{
+    border-right:4px solid #DEDEDE;
+    height: 160px;
+    width: 303px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.c-info_content_area h5{
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #F25022;
+}
+.c-info_content_area p{
+    font-size: 16px;
+    color: #737373;
+}
+/*--estilos da section pub--*/
+.c-banner_pub{
+    background-image: url("./imagens/Grupo\ 138.png");
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}
+.c-banner_pub p{
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 1200px;
+    height: 128px;
+}
+
 
