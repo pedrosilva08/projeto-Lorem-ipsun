@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 /*--propriedades padrões--*/
@@ -12,8 +11,12 @@
     align-items: center;
 }
 h1{
-    font-size: 80px;
-    font-weight: bold;
+    font-size: 40px;
+    color: #2571B7;
+    margin-bottom: 48px;
+}
+h5{
+
 }
 /*--paleta de cores--*/
 .azul{
@@ -131,6 +134,11 @@ nav p{
     width: 171px;
     height: 35px;
 }
+.c-banner h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
 /*--estilo do article --*/
 article{
     text-align: center;
@@ -143,11 +151,12 @@ article p{
     color: #737373;
     line-height: 50px;
 }
-/*--estilos da section--*/
+/*--estilos da section index--*/
 .c-index{
     width: 1200px;
     height: 872px;
 }
+
 .c-index_items{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -160,15 +169,7 @@ article p{
 .c-index_content p{
     font-size: 20px;
 }
-.c-index_content h1{
-    font-size: 40px;
-    color: #2571B7;
-    margin-bottom: 48px;
-}
 .c-index_area{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     width: 576px;
     height: 120px;
     margin-bottom: 24px;
@@ -176,11 +177,105 @@ article p{
 .c-index_area img{
     width: 64px;
     height: 64px;
+    padding: 28px;
+    float: left;
 }
 .c-index_area h4{
     font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 20px;
 }
 .c-index_area p{
     font-size: 16px;
+}
+/*--estilos da section services--*/
+.c-services_area{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 512px;
+}
+.c-services_title{
+    text-align: center;
+}
+/*----Aplicando estilos no conteúdo do service------*/
+.c-services_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px 88px;
+}
+.c-services_content p{
+    font-size: 16px;
+    color: #737373;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.c-services_content h5::after{
+    content: '';
+    width: 53px;
+    height: 4px;
+    background-color: #DEDEDE;
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+}
+.c-services_content img{
+    margin-bottom: 20px;
+}
+/*----Aplicando estilos nos botões do service------*/
+.c-services_button_hands:hover{
+    background-color: #7FBA00;
+    color: white;
+}
+.c-services_button_hands{
+    width: 110px;
+    height: 41px;
+    color:#7FBA00;
+    border: 2px solid #7FBA00;
+    background-color: white;
+    cursor: pointer;
+}
+.c-services_button_shield:hover{
+    background-color: #00A4EF;
+    color: white;
+}
+.c-services_button_shield{
+    width: 110px;
+    height: 41px;
+    color:#00A4EF;
+    border: 2px solid #00A4EF;
+    background-color: white;
+    cursor: pointer;
+}
+.c-services_button_pc:hover{
+    background-color: #FFB900;
+    color: white;
+}
+.c-services_button_pc{
+    width: 110px;
+    height: 41px;
+    color:#FFB900;
+    border: 2px solid #FFB900;
+    background-color: white;
+    cursor: pointer;
+}
+/*----Aplicando estilos no texto do service------*/
+.hands h5{
+    margin-bottom: 40px;
+    color: #7FBA00;
+    font-size: 20px;
+}
+.shield h5{
+    margin-bottom: 40px;
+    color: #00A4EF;
+    font-size: 20px;
+}
+.pc h5{
+    margin-bottom: 40px;
+    color: #FFB900;
+    font-size: 20px;
 }
 
